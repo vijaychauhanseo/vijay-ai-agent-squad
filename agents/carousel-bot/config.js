@@ -13,8 +13,8 @@ module.exports = {
     apiVersion: get('API_VERSION') || 'v19.0',
   },
   telegram: {
-    botToken: 'TELEGRAM_BOT_TOKEN_REMOVED',
-    chatId: 'TELEGRAM_CHAT_ID_REMOVED',
+    botToken: get('TELEGRAM_BOT_TOKEN'),
+    chatId: get('TELEGRAM_CHAT_ID'),
   },
   brand: {
     handle: '@learnaiwithvijay',
