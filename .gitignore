@@ -36,6 +36,6 @@ Thumbs.db
 .pm2/
 ecosystem.config.js
 
-# Personal memory files with sensitive data
-MEMORY.md
-**/memory/
+
+
+
