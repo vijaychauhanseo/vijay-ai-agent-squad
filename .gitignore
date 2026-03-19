@@ -1,0 +1,41 @@
+# Environment & secrets — NEVER commit these
+.env
+*.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output & generated files
+output/
+*/output/
+dist/
+*.log
+
+# Font files (large binaries)
+*.ttf
+*.ttc
+*.otf
+*.woff
+*.woff2
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rendered images
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
+
+# PM2
+.pm2/
+ecosystem.config.js
+
+# Personal memory files with sensitive data
+MEMORY.md
+**/memory/

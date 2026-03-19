@@ -1,0 +1,15 @@
+{
+  "name": "carousel-bot",
+  "version": "1.0.0",
+  "description": "Auto carousel generator and Instagram poster for @learnaiwithvijay",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "run-now": "node index.js --now"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "localtunnel": "^2.0.2",
+    "rss-parser": "^3.13.0"
+  }
+}

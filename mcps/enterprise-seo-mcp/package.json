@@ -1,0 +1,20 @@
+{
+  "name": "enterprise-seo-mcp",
+  "version": "1.0.0",
+  "description": "Enterprise SEO MCP — E-E-A-T scoring, Topicality analysis, NavBoost optimization, AI Overview eligibility. Built on Google Leak signals.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
