@@ -64,8 +64,11 @@ Not a generic SEO tool. This scores pages against Google's actual internal signa
 | `ai_overview_checker` | AI Overview eligibility score | Ahrefs 863K SERP study findings |
 | `full_seo_audit` | All 4 tools in one call, single crawl, prioritized fix list | Combined |
 
-**Example output from a real audit (Thrillophilia Singapore page):**
+**Example output from a real audit:**
 ```
+Site: example.com/category/singapore-tours
+Keyword: singapore tours
+
 NavBoost Score: 30/100
 → Unicode spam in body content detected (417 instances)
 → Raw HTML entities in meta description (&amp;, &ndash;)
@@ -73,7 +76,7 @@ NavBoost Score: 30/100
 → Internal link count: 429 (optimal: 100-150)
 
 T* Topicality Score: 58/100
-→ Aboutness: PASS — Singapore travel intent clear
+→ Aboutness: PASS — travel intent clear
 → Breadth: FAIL — 6 subtopic clusters missing
 → Coherence: WARN — template content diluting entity density
 ```
